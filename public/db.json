@@ -1,0 +1,148 @@
+{
+    "phones": [
+      {
+        "id": 0,
+        "imageUrl": "https://static.digitecgalaxus.ch/Files/3/2/6/4/6/7/1/3/ef-xg985f_001_front_gray_200120.jpeg",
+        "name": "Смартфон Samsung Galaxy A12 32GB Black (SM-A125F)",
+        "camera": [0, 1],
+        "sizes": [16, 128 ],
+        "oldPrice": 8,
+        "currentPrice": 899,
+        "category": 0,
+        "rating": 4,
+        "new": 1
+      },
+      {
+        "id": 1,
+        "imageUrl": "https://static.digitecgalaxus.ch/Files/3/2/6/4/6/7/1/3/ef-xg985f_001_front_gray_200120.jpeg",
+        "name": "Смартфон Samsung Galaxy A12 32GB Black (SM-A125F)",
+        "camera": [0, 1],
+        "sizes": [16, 128 ],
+        "oldPrice": 100,
+        "currentPrice": 803,
+        "category": 0,
+        "rating": 4,
+        "new": 1
+      },
+      {
+        "id": 2,
+        "imageUrl": "https://static.digitecgalaxus.ch/Files/3/2/6/4/6/7/1/3/ef-xg985f_001_front_gray_200120.jpeg",
+        "name": "Смартфон Samsung Galaxy A12 32GB Black (SM-A125F)",
+        "camera": [0, 1],
+        "sizes": [16, 128 ],
+        "oldPrice": 500,
+        "currentPrice": 803,
+        "category": 0,
+        "rating": 4,
+        "new": 1
+      },
+      {
+        "id": 3,
+        "imageUrl": "https://static.digitecgalaxus.ch/Files/3/2/6/4/6/7/1/3/ef-xg985f_001_front_gray_200120.jpeg",
+        "name": "Смартфон Samsung Galaxy A12 32GB Black (SM-A125F)",
+        "camera": [0, 1],
+        "sizes": [16, 128 ],
+        "oldPrice": 900,
+        "currentPrice": 800,
+        "category": 0,
+        "rating": 4,
+        "new": 1
+      },
+      {
+        "id": 4,
+        "imageUrl": "https://static.digitecgalaxus.ch/Files/3/2/6/4/6/7/1/3/ef-xg985f_001_front_gray_200120.jpeg",
+        "name": "Смартфон Samsung Galaxy A12 32GB Black (SM-A125F)",
+        "camera": [0, 1],
+        "sizes": [16, 128 ],
+        "oldPrice": 890,
+        "currentPrice": 803,
+        "category": 0,
+        "rating": 4,
+        "new": 1
+      },
+      {
+        "id": 5,
+        "imageUrl": "https://static.digitecgalaxus.ch/Files/3/2/6/4/6/7/1/3/ef-xg985f_001_front_gray_200120.jpeg",
+        "name": "Смартфон Samsung Galaxy A12 32GB Black (SM-A125F)",
+        "camera": [0, 1],
+        "sizes": [16, 128 ],
+        "oldPrice": 500,
+        "currentPrice": 803,
+        "category": 0,
+        "rating": 4,
+        "new": 1
+      },
+      {
+        "id": 6,
+        "imageUrl": "https://static.digitecgalaxus.ch/Files/3/2/6/4/6/7/1/3/ef-xg985f_001_front_gray_200120.jpeg",
+        "name": "Смартфон Samsung Galaxy A12 32GB Black (SM-A125F)",
+        "camera": [0, 1],
+        "sizes": [16, 128 ],
+        "oldPrice": 890,
+        "currentPrice": 803,
+        "category": 0,
+        "rating": 4,
+        "new": 1
+      },
+      {
+        "id": 7,
+        "imageUrl": "https://static.digitecgalaxus.ch/Files/3/2/6/4/6/7/1/3/ef-xg985f_001_front_gray_200120.jpeg",
+        "name": "Смартфон Samsung Galaxy A12 32GB Black (SM-A125F)",
+        "camera": [0, 1],
+        "sizes": [16, 128 ],
+        "oldPrice": 890,
+        "currentPrice": 803,
+        "category": 0,
+        "rating": 4,
+        "new": 1
+      },
+      {
+        "id": 8,
+        "imageUrl": "https://static.digitecgalaxus.ch/Files/3/2/6/4/6/7/1/3/ef-xg985f_001_front_gray_200120.jpeg",
+        "name": "Смартфон Samsung Galaxy A12 32GB Black (SM-A125F)",
+        "camera": [0, 1],
+        "sizes": [16, 128 ],
+        "oldPrice": 890,
+        "currentPrice": 803,
+        "category": 0,
+        "rating": 4,
+        "new": 1
+      },
+      {
+        "id": 9,
+        "imageUrl": "https://static.digitecgalaxus.ch/Files/3/2/6/4/6/7/1/3/ef-xg985f_001_front_gray_200120.jpeg",
+        "name": "Смартфон Samsung Galaxy A12 32GB Black (SM-A125F)",
+        "camera": [0, 1],
+        "sizes": [16, 128 ],
+        "oldPrice": 890,
+        "currentPrice": 803,
+        "category": 0,
+        "rating": 4,
+        "new": 1
+      },
+      {
+        "id": 10,
+        "imageUrl": "https://static.digitecgalaxus.ch/Files/3/2/6/4/6/7/1/3/ef-xg985f_001_front_gray_200120.jpeg",
+        "name": "Смартфон Samsung Galaxy A12 32GB Black (SM-A125F)",
+        "camera": [0, 1],
+        "sizes": [16, 128 ],
+        "oldPrice": 890,
+        "currentPrice": 803,
+        "category": 0,
+        "rating": 4,
+        "new": 1
+      },
+      {
+        "id": 11,
+        "imageUrl": "https://static.digitecgalaxus.ch/Files/3/2/6/4/6/7/1/3/ef-xg985f_001_front_gray_200120.jpeg",
+        "name": "Смартфон Samsung Galaxy A12 32GB Black (SM-A125F)",
+        "camera": [0, 1],
+        "sizes": [16, 128 ],
+        "oldPrice": 890,
+        "currentPrice": 803,
+        "category": 0,
+        "rating": 4,
+        "new": 1
+      }
+    ]
+  }
