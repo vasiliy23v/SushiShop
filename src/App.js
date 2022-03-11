@@ -1,6 +1,6 @@
 import React from "react";
 import axios from "axios";
-import { useSelector, useDispatch } from "react-redux";
+import { useDispatch } from "react-redux";
 
 import { Header } from "./components/";
 import { Home, Cart } from "./pages";
@@ -8,14 +8,10 @@ import { Route, Routes } from "react-router-dom";
 
 import { setPhones } from "./redux/actions/phones";
 
-function App({ items }) {
+function App() {
   const dispatch = useDispatch();
-  const state = useSelector(({phones, filters}) => {
-      return {
-        items: phones.items,
-        filters: filters.sortBy,
-      };
-  });
+
+
 
   React.useEffect(() => {
     axios.get("http://localhost:3000/db.json").then(({ data }) => {
@@ -27,7 +23,7 @@ function App({ items }) {
       <Header />
       <div className="content">
         <Routes>
-          <Route path="/" element={<Home items={[]} />} exact />
+          <Route path="/" element={<Home/>} exact />
           <Route path="/cart" element={<Cart />} />
         </Routes>
       </div>
@@ -37,4 +33,4 @@ function App({ items }) {
 
 export default App;
 
-// #7 00.42.00
+// #8 00.00.00
