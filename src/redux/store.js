@@ -1,6 +1,8 @@
-import { createStore } from "redux";
-
+import { createStore, compose } from "redux";
+import thunk from "redux-thunk"
 import rootReducer from "./reducers";
+
+const composeEnhancer = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose
 
 const store = createStore(
   rootReducer,
@@ -10,3 +12,4 @@ const store = createStore(
 window.store = store;
 
 export default store;
+//00.34.00

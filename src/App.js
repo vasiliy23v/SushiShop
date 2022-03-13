@@ -1,12 +1,12 @@
 import React from "react";
-import axios from "axios";
+
 import { useDispatch } from "react-redux";
 
 import { Header } from "./components/";
 import { Home, Cart } from "./pages";
 import { Route, Routes } from "react-router-dom";
 
-import { setPhones } from "./redux/actions/phones";
+import { fetchPhones } from "./redux/actions/phones";
 
 function App() {
   const dispatch = useDispatch();
@@ -14,9 +14,7 @@ function App() {
 
 
   React.useEffect(() => {
-    axios.get("http://localhost:3000/db.json").then(({ data }) => {
-      dispatch(setPhones(data.phones));
-    });
+
   }, []);
   return (
     <div className="wrapper">
