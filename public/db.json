@@ -2,8 +2,8 @@
     "phones": [
       {
         "id": 0,
-        "imageUrl": "https://static.digitecgalaxus.ch/Files/3/2/6/4/6/7/1/3/ef-xg985f_001_front_gray_200120.jpeg",
-        "name": "Смартфон Samsung Galaxy A12 32GB Black (SM-A125F)",
+        "imageUrl": "https://cdn.sushiwok.ru/img/7b13f1254eb27eecb2b136c234729254/500x400",
+        "name": "Угорь суши 2шт",
         "camera": [0, 1],
         "sizes": [16, 128 ],
         "oldPrice": 8,
@@ -14,8 +14,8 @@
       },
       {
         "id": 1,
-        "imageUrl": "https://static.digitecgalaxus.ch/Files/3/2/6/4/6/7/1/3/ef-xg985f_001_front_gray_200120.jpeg",
-        "name": "Смартфон Samsung Galaxy A12 32GB Black (SM-A125F)",
+        "imageUrl": "https://cdn.sushiwok.ru/img/827d4bae19da7d02de52e239f894a93a/500x400",
+        "name": "Чука Суши 2шт",
         "camera": [0, 1],
         "sizes": [16, 128 ],
         "oldPrice": 100,
@@ -26,8 +26,8 @@
       },
       {
         "id": 2,
-        "imageUrl": "https://static.digitecgalaxus.ch/Files/3/2/6/4/6/7/1/3/ef-xg985f_001_front_gray_200120.jpeg",
-        "name": "Смартфон Samsung Galaxy A12 32GB Black (SM-A125F)",
+        "imageUrl": "https://cdn.sushiwok.ru/img/ca19e78826adcf5d60ea6d260881aa73/500x400",
+        "name": "Креветка Суши 2шт",
         "camera": [0, 1],
         "sizes": [16, 128 ],
         "oldPrice": 500,
@@ -38,8 +38,8 @@
       },
       {
         "id": 3,
-        "imageUrl": "https://static.digitecgalaxus.ch/Files/3/2/6/4/6/7/1/3/ef-xg985f_001_front_gray_200120.jpeg",
-        "name": "Смартфон Samsung Galaxy A12 32GB Black (SM-A125F)",
+        "imageUrl": "https://cdn.sushiwok.ru/img/0cf9ada663128c29791ae6fb2865060a/500x400",
+        "name": "Лосось суши",
         "camera": [0, 1],
         "sizes": [16, 128 ],
         "oldPrice": 900,
@@ -50,8 +50,8 @@
       },
       {
         "id": 4,
-        "imageUrl": "https://static.digitecgalaxus.ch/Files/3/2/6/4/6/7/1/3/ef-xg985f_001_front_gray_200120.jpeg",
-        "name": "Смартфон Samsung Galaxy A12 32GB Black (SM-A125F)",
+        "imageUrl": "https://cdn.sushiwok.ru/img/1b245054e30fdcc4c9339b257307ad2e/500x400",
+        "name": "Краб запечені суші 2 шт",
         "camera": [0, 1],
         "sizes": [16, 128 ],
         "oldPrice": 890,
@@ -62,8 +62,8 @@
       },
       {
         "id": 5,
-        "imageUrl": "https://static.digitecgalaxus.ch/Files/3/2/6/4/6/7/1/3/ef-xg985f_001_front_gray_200120.jpeg",
-        "name": "Смартфон Samsung Galaxy A12 32GB Black (SM-A125F)",
+        "imageUrl": "https://cdn.sushiwok.ru/img/2a21e6d44768ae5c974df17df95af2b1/500x400",
+        "name": "Креветка запечені суші 2 шт",
         "camera": [0, 1],
         "sizes": [16, 128 ],
         "oldPrice": 500,
@@ -74,8 +74,8 @@
       },
       {
         "id": 6,
-        "imageUrl": "https://static.digitecgalaxus.ch/Files/3/2/6/4/6/7/1/3/ef-xg985f_001_front_gray_200120.jpeg",
-        "name": "Смартфон Samsung Galaxy A12 32GB Black (SM-A125F)",
+        "imageUrl": "https://cdn.sushiwok.ru/img/e830b4cce26417ab35a9a319c436acf9/500x400",
+        "name": "Лосось гострі",
         "camera": [0, 1],
         "sizes": [16, 128 ],
         "oldPrice": 890,
@@ -86,8 +86,8 @@
       },
       {
         "id": 7,
-        "imageUrl": "https://static.digitecgalaxus.ch/Files/3/2/6/4/6/7/1/3/ef-xg985f_001_front_gray_200120.jpeg",
-        "name": "Смартфон Samsung Galaxy A12 32GB Black (SM-A125F)",
+        "imageUrl": "https://cdn.sushiwok.ru/img/a6ca1d32cffce82567a213237e1bb9da/500x400",
+        "name": "Вугор гострі суші 2 шт",
         "camera": [0, 1],
         "sizes": [16, 128 ],
         "oldPrice": 890,
@@ -98,8 +98,8 @@
       },
       {
         "id": 8,
-        "imageUrl": "https://static.digitecgalaxus.ch/Files/3/2/6/4/6/7/1/3/ef-xg985f_001_front_gray_200120.jpeg",
-        "name": "Смартфон Samsung Galaxy A12 32GB Black (SM-A125F)",
+        "imageUrl": "https://cdn.sushiwok.ru/img/ddc529461cae4bd18ee83700f6caa728/500x400",
+        "name": "Краб гострі суші 2 шт",
         "camera": [0, 1],
         "sizes": [16, 128 ],
         "oldPrice": 890,
@@ -110,8 +110,8 @@
       },
       {
         "id": 9,
-        "imageUrl": "https://static.digitecgalaxus.ch/Files/3/2/6/4/6/7/1/3/ef-xg985f_001_front_gray_200120.jpeg",
-        "name": "Смартфон Samsung Galaxy A12 32GB Black (SM-A125F)",
+        "imageUrl": "https://cdn.sushiwok.ru/img/612d07b627d3dbe5b1fa485e1899600d/500x400",
+        "name": "Креветка гострі суші 2 шт",
         "camera": [0, 1],
         "sizes": [16, 128 ],
         "oldPrice": 890,
@@ -122,8 +122,8 @@
       },
       {
         "id": 10,
-        "imageUrl": "https://static.digitecgalaxus.ch/Files/3/2/6/4/6/7/1/3/ef-xg985f_001_front_gray_200120.jpeg",
-        "name": "Смартфон Samsung Galaxy A12 32GB Black (SM-A125F)",
+        "imageUrl": "https://cdn.sushiwok.ru/img/9011ba3221fdcb602b2d0373e8a038dd/500x400",
+        "name": "Лосось гострі суші 2 шт",
         "camera": [0, 1],
         "sizes": [16, 128 ],
         "oldPrice": 890,
@@ -134,8 +134,8 @@
       },
       {
         "id": 11,
-        "imageUrl": "https://static.digitecgalaxus.ch/Files/3/2/6/4/6/7/1/3/ef-xg985f_001_front_gray_200120.jpeg",
-        "name": "Смартфон Samsung Galaxy A12 32GB Black (SM-A125F)",
+        "imageUrl": "https://cdn.sushiwok.ru/img/9011ba3221fdcb602b2d0373e8a038dd/500x400",
+        "name": "Лосось гострі суші 2 шт",
         "camera": [0, 1],
         "sizes": [16, 128 ],
         "oldPrice": 890,
@@ -146,3 +146,5 @@
       }
     ]
   }
+
+  
