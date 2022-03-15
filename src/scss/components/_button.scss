@@ -54,6 +54,9 @@
   }
 
   &--outline {
+    width: 80%;
+    font-weight: bold;
+    font-size: bold;
     background-color: #fff;
     border-color: $violet;
     &,
@@ -63,7 +66,8 @@
 
     svg {
       path {
-        fill: $violet;
+        fill: #fff;
+        stroke: $violet
       }
     }
 
@@ -77,7 +81,8 @@
 
       svg {
         path {
-          fill: #fff;
+          fill: $violet;
+          stroke: #fff;
         }
       }
     }
@@ -134,8 +139,8 @@
   }
 
   &--cart {
-    min-width: 124px;
     display: flex;
+    min-width: 124px;
     align-items: center;
     line-height: 25px;
 
@@ -149,4 +154,9 @@
       font-size: 16px;
     }
   }
+}
+.price__block{         
+  bottom: 0px;  
+  margin: 20px 0 ;     
+  height: 40px;
 }
