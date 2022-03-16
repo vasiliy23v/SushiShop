@@ -52,7 +52,7 @@ function PhoneBlock({
           htmlFor="Sale"
         >
           {oldPrice > currentPrice
-            ? `${Math.ceil((currentPrice - oldPrice) * 0.1)}%`
+            ? `-${Math.ceil(((currentPrice - oldPrice) * 100)/currentPrice)}%`
             : " "}
         </label>
       </div>
@@ -61,10 +61,10 @@ function PhoneBlock({
 
       <div className="price__block">
         <div className="phone-block__price phone-block__old-price">
-          {oldPrice > currentPrice ? `${oldPrice} ₽` : ""}
+          {oldPrice > currentPrice ? `${oldPrice} ₴` : ""}
         </div>
         <div className="phone-block__price phone-block__new-price">
-          от {currentPrice} ₽
+           {currentPrice} ₴
         </div>
       </div>
       <Button onClick={onAddphone} className="button--outline">

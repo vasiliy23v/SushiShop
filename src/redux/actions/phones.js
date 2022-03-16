@@ -1,9 +1,25 @@
 import axios from "axios";
 
-export const fetchPhones = () => (dispatch) => {
-  axios.get("http://localhost:3000/db.json").then(({ data }) => {
-    dispatch(setPhones(data.phones));
+export const setLoaded = (payload) => ({
+  type: "SET_LOADED",
+  payload,
+});
+
+export const fetchPhones = (sortBy, category) => (dispatch) => {
+  dispatch({
+    type: 'SET_LOADED',
+    payload: false,
   });
+
+  axios
+    .get(
+      `http://localhost:3001/phones?${category !== null ? `category=${category}` : ''}&_sort=${sortBy.type}&_order=${
+        sortBy.order
+      }`,
+    )
+    .then(({ data }) => {
+      dispatch(setPhones(data));
+    });
 };
 
 export const setPhones = (items) => ({
