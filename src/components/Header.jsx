@@ -1,5 +1,5 @@
 import React from "react";
-import logoSvg from "../assets/img/phones-logo.png";
+import logoSvg from "../assets/img/logo.png";
 import searchPng from "../assets/img/search__icon.png";
 import { Link } from "react-router-dom";
 import { Button } from "./";
