@@ -76,7 +76,7 @@ function Cart() {
               />
             </svg>
 
-            <span>Очистить корзину</span>
+            <span>Очистить Корзину</span>
           </div>
         </div>
         <div className="content__items">
