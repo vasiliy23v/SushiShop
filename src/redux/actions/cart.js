@@ -1,5 +1,5 @@
-const setPhones = (items) => ({
-    type: "SET_PHONES",
-    payload: items,
+export const addSushiToCart = (sushiObj) => ({
+    type: "ADD_SUSHI_CART",
+    payload: sushiObj,
   });
   

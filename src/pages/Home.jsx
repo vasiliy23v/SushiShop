@@ -57,7 +57,7 @@ function Home() {
       <div className="content__items">
         {isLoaded
           ? items.map((obj) => (
-              <PhoneBlock key={obj.id} isLoading={true} {...obj} />
+              <PhoneBlock onClickAddSushi={(obj)=>console.log(obj)} key={obj.id} isLoading={true} {...obj} />
             ))
           : Array(12)
               .fill(0)
@@ -69,4 +69,4 @@ function Home() {
 
 export default Home;
 
-//#8 1:20:00
+//#9 00.25.00

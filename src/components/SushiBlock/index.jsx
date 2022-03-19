@@ -13,6 +13,7 @@ function PhoneBlock({
   sizes,
   onClickAddphone,
   addedCount,
+  onClickAddSushi,
 }) {
   const availableTypes = ["64", "128"];
   const availableSizes = ["5", "16", "64", "128"];
@@ -27,19 +28,16 @@ function PhoneBlock({
     setActiveSize(index);
   };
 
-  const onAddphone = () => {
+  const onAddSushi = () => {
     const obj = {
       id,
       name,
       imageUrl,
       oldPrice,
       currentPrice,
-      size: availableSizes[activeSize],
-      camera: availableTypes[activeType],
-      new: 0,
-    };
-    onClickAddphone(obj);
-  };
+    }
+  onClickAddSushi(obj)
+}
 
   return (
     <div className="phone-block">
@@ -52,7 +50,7 @@ function PhoneBlock({
           htmlFor="Sale"
         >
           {oldPrice > currentPrice
-            ? `-${Math.ceil(((currentPrice - oldPrice) * 100)/currentPrice)}%`
+            ? `-${Math.ceil(((currentPrice - oldPrice) * 100) / currentPrice)}%`
             : " "}
         </label>
       </div>
@@ -64,10 +62,14 @@ function PhoneBlock({
           {oldPrice > currentPrice ? `${oldPrice} ₴` : ""}
         </div>
         <div className="phone-block__price phone-block__new-price">
-           {currentPrice} ₴
+          {currentPrice} ₴
         </div>
       </div>
-      <Button onClick={onAddphone} className="button--outline">
+      <Button
+        onClick={onAddSushi
+        }
+        className="button--outline"
+      >
         <svg
           width="18"
           height="18"
@@ -109,8 +111,7 @@ PhoneBlock.propTypes = {
   currentPrice: PropTypes.number,
   camera: PropTypes.arrayOf(PropTypes.number),
   sizes: PropTypes.arrayOf(PropTypes.number),
-  onClickAddphone: PropTypes.func,
-  addedCount: PropTypes.number,
+  onClickAddSushi: PropTypes.func,
 };
 
 PhoneBlock.defaultProps = {
