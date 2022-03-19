@@ -5,19 +5,23 @@ const initialState = {
 };
 const cart = (state = initialState, action) => {
   switch (action.type) {
-    case "ADD_SUSHI_CART":
+    case "ADD_SUSHI_CART": {
+      const obj = {}
+
       return {
         ...state,
         items: {
-          [action.payload.id]: [
-            ...state.items[action.payload.id],
-            action.payload,
-          ],
+          ...state.items,
+          [action.payload.id]: !state.items[action.payload.id]
+            ? [action.playload]
+            : [...state.items[action.payload.id], action.payload],
         },
       };
+    }
     default:
       return state;
   }
 };
 
 export default cart;
+//#9 1.36.55

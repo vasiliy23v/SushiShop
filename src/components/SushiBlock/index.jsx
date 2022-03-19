@@ -35,9 +35,9 @@ function PhoneBlock({
       imageUrl,
       oldPrice,
       currentPrice,
-    }
-  onClickAddSushi(obj)
-}
+    };
+    onClickAddSushi(obj);
+  };
 
   return (
     <div className="phone-block">
@@ -65,11 +65,7 @@ function PhoneBlock({
           {currentPrice} ₴
         </div>
       </div>
-      <Button
-        onClick={onAddSushi
-        }
-        className="button--outline"
-      >
+      <Button onClick={onAddSushi} className="button--outline">
         <svg
           width="18"
           height="18"

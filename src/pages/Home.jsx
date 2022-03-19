@@ -3,6 +3,7 @@ import { Categories, SortPopup, PhoneBlock, LoadingBlock } from "../components";
 import { useSelector, useDispatch } from "react-redux";
 import { setCategory, setSortBy } from "../redux/actions/filters";
 import { fetchPhones } from "../redux/actions/phones";
+import { addSushiToCart } from "../redux/actions/cart";
 
 const categoryNames = [
   "Класические",
@@ -38,6 +39,13 @@ function Home() {
     []
   );
 
+  const handleAddSushiToCart = (obj) => {
+    dispatch({
+      type: "ADD_SUSHI_CART",
+      payload: obj,
+    });
+  }
+
   return (
     <div className="container">
       <div className="content__top">
@@ -57,7 +65,7 @@ function Home() {
       <div className="content__items">
         {isLoaded
           ? items.map((obj) => (
-              <PhoneBlock onClickAddSushi={(obj)=>console.log(obj)} key={obj.id} isLoading={true} {...obj} />
+              <PhoneBlock onClickAddSushi={handleAddSushiToCart} key={obj.id} isLoading={true} {...obj} />
             ))
           : Array(12)
               .fill(0)
