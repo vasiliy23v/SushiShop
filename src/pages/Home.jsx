@@ -1,8 +1,8 @@
 import React from "react";
-import { Categories, SortPopup, PhoneBlock, LoadingBlock } from "../components";
+import { Categories, SortPopup, SushiBlock, LoadingBlock } from "../components";
 import { useSelector, useDispatch } from "react-redux";
 import { setCategory, setSortBy } from "../redux/actions/filters";
-import { fetchPhones } from "../redux/actions/phones";
+import { fetchSushi } from "../redux/actions/sushi";
 import { addSushiToCart } from "../redux/actions/cart";
 
 const categoryNames = [
@@ -21,12 +21,12 @@ const sortItems = [
 ];
 function Home() {
   const dispatch = useDispatch();
-  const items = useSelector(({ phones }) => phones.items);
-  const isLoaded = useSelector(({ phones }) => phones.isLoaded);
+  const items = useSelector(({ sushi }) => sushi.items);
+  const isLoaded = useSelector(({ sushi }) => sushi.isLoaded);
   const { category, sortBy } = useSelector(({ filters }) => filters);
 
   React.useEffect(() => {
-    dispatch(fetchPhones(sortBy, category));
+    dispatch(fetchSushi(sortBy, category));
   }, [category, sortBy]);
 
   const onSelectCategory = React.useCallback(
@@ -65,7 +65,7 @@ function Home() {
       <div className="content__items">
         {isLoaded
           ? items.map((obj) => (
-              <PhoneBlock onClickAddSushi={handleAddSushiToCart} key={obj.id} isLoading={true} {...obj} />
+              <SushiBlock onClickAddSushi={handleAddSushiToCart} key={obj.id} isLoading={true} {...obj} />
             ))
           : Array(12)
               .fill(0)

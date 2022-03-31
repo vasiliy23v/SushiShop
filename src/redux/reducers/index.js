@@ -1,11 +1,11 @@
 import { combineReducers } from "redux";
 import filters from "./filters";
-import phones from "./phones";
+import sushi from "./sushi";
 import cart from "./cart";
 
 const rootReduser = combineReducers({
   filters ,
-  phones ,
+  sushi ,
   cart ,
 });
 

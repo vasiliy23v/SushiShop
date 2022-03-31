@@ -5,7 +5,7 @@ export const setLoaded = (payload) => ({
   payload,
 });
 
-export const fetchPhones = (sortBy, category) => (dispatch) => {
+export const fetchSushi = (sortBy, category) => (dispatch) => {
   dispatch({
     type: 'SET_LOADED',
     payload: false,
@@ -13,16 +13,16 @@ export const fetchPhones = (sortBy, category) => (dispatch) => {
 
   axios
     .get(
-      `http://localhost:3001/phones?${category !== null ? `category=${category}` : ''}&_sort=${sortBy.type}&_order=${
+      `http://localhost:3001/ sushi?${category !== null ? `category=${category}` : ''}&_sort=${sortBy.type}&_order=${
         sortBy.order
       }`,
     )
     .then(({ data }) => {
-      dispatch(setPhones(data));
+      dispatch(setSushi(data));
     });
 };
 
-export const setPhones = (items) => ({
-  type: "SET_PHONES",
+export const setSushi = (items) => ({
+  type: "SET_SUSHI",
   payload: items,
 });

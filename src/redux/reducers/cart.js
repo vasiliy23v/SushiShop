@@ -24,4 +24,3 @@ const cart = (state = initialState, action) => {
 };
 
 export default cart;
-//#9 1.36.55

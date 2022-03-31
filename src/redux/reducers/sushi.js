@@ -2,9 +2,9 @@ const initialState = {
   items: [],
   isLoaded: false,
 };
-const phones = (state = initialState, action) => {
+const sushi = (state = initialState, action) => {
   switch (action.type) {
-    case "SET_PHONES":
+    case "SET_SUSHI":
       return {
         ...state,
         items: action.payload,
@@ -20,4 +20,4 @@ const phones = (state = initialState, action) => {
   }
 };
 
-export default phones;
+export default sushi;

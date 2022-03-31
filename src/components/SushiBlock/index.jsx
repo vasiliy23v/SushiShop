@@ -3,30 +3,14 @@ import PropTypes from "prop-types";
 import classNames from "classnames";
 import Button from "../Button";
 
-function PhoneBlock({
+function SushiBlock({
   id,
   name,
   imageUrl,
   oldPrice,
   currentPrice,
-  camera,
-  sizes,
-  onClickAddphone,
-  addedCount,
   onClickAddSushi,
 }) {
-  const availableTypes = ["64", "128"];
-  const availableSizes = ["5", "16", "64", "128"];
-
-  const [activeType, setActiveType] = React.useState(camera[1]);
-  const [activeSize, setActiveSize] = React.useState(0);
-
-  const onSelectType = (index) => {
-    setActiveType(index);
-  };
-  const onSelectSize = (index) => {
-    setActiveSize(index);
-  };
 
   const onAddSushi = () => {
     const obj = {
@@ -40,10 +24,10 @@ function PhoneBlock({
   };
 
   return (
-    <div className="phone-block">
-      <div className="phone-block__label-container">
+    <div className="sushi-block">
+      <div className="sushi-block__label-container">
         <label
-          className={classNames("phone-block", {
+          className={classNames("sushi-block", {
             active: oldPrice > currentPrice,
             none: oldPrice <= currentPrice,
           })}
@@ -54,14 +38,14 @@ function PhoneBlock({
             : " "}
         </label>
       </div>
-      <img className="phone-block__image" src={imageUrl} alt="phone" />
-      <h4 className="phone-block__title">{name}</h4>
+      <img className="sushi-block__image" src={imageUrl} alt="sushi" />
+      <h4 className="sushi-block__title">{name}</h4>
 
       <div className="price__block">
-        <div className="phone-block__price phone-block__old-price">
+        <div className="sushi-block__price sushi-block__old-price">
           {oldPrice > currentPrice ? `${oldPrice} ₴` : ""}
         </div>
-        <div className="phone-block__price phone-block__new-price">
+        <div className="sushi-block__price sushi-block__new-price">
           {currentPrice} ₴
         </div>
       </div>
@@ -100,7 +84,7 @@ function PhoneBlock({
   );
 }
 
-PhoneBlock.propTypes = {
+SushiBlock.propTypes = {
   name: PropTypes.string,
   imageUrl: PropTypes.string,
   oldPrice: PropTypes.number,
@@ -110,7 +94,7 @@ PhoneBlock.propTypes = {
   onClickAddSushi: PropTypes.func,
 };
 
-PhoneBlock.defaultProps = {
+SushiBlock.defaultProps = {
   name: "---",
   oldPrice: 0,
   currentPrice: 0,
@@ -118,4 +102,4 @@ PhoneBlock.defaultProps = {
   sizes: [],
 };
 
-export default PhoneBlock;
+export default SushiBlock;
